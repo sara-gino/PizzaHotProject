@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+.buttonOrder{
+margin-top: 1%;
+}
+.input1{
+  margin-left: 2%;
+border-top:1px ;
+border-left:1px ;
+border-right:1px ;
+  background-color: transparent;
+  border-color:black ;
+}
+.input{
+border-top:0px ;
+border-left:0px ;
+border-right:0px ;
+text-emphasis-color: #000 !important;
+  background-color: transparent;
+  border-color:black ;
+}
+.buttonPizza{
+  background-color: rgb(39, 77, 20);
+  margin-top: 1%;
+}
+.titlePizza{
+
+  text-align: center;
+}
+.pizza {
+  position: relative;
+  width: 30%;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  background:
+  linear-gradient(transparent 49.85%, rgba(0, 0, 0, 0.04) 49.85%, rgba(0, 0, 0, 0.04) 50.15%, transparent 50.15%),
+  linear-gradient(90deg, transparent 49.85%, rgba(0, 0, 0, 0.04) 49.85%, rgba(0, 0, 0, 0.04) 50.15%, transparent 50.15%),
+  linear-gradient(45deg, transparent 49.85%, rgba(0, 0, 0, 0.04) 49.85%, rgba(0, 0, 0, 0.04) 50.15%, transparent 50.15%),
+  linear-gradient(-45deg, transparent 49.85%, rgba(0, 0, 0, 0.04) 49.85%, rgba(0, 0, 0, 0.04) 50.15%, transparent 50.15%),
+  radial-gradient(circle, #fcfc8f, #fdfd81 59.5%, #c79d81 60%, #836551 70%);
+}
+.pizza::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+.cotainer{
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  margin: auto;
+  border-top: rgba(0, 0, 0);
+  border-style: inset;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  padding-top: 14px;
+}
+.slice{
+  display: grid;
+  grid-template-rows: auto auto;
+  margin: auto;
+}
+.name{
+  width: 100%;
+height: 90%;
+text-align: center;
+  background-color: rgb(88, 73, 73);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.buttonPizza  {
+/* 
+  width: 5%;
+  /* height: 6%; */
+  /* position: absolute;  */
+  margin-top: 3%!important;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: rgb(39, 77, 20);
+  font-size: 16px;
+  padding: 16px 30px;
+  border-color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: 1px;
+  text-align: center;
+}
+
+.buttonPizza:hover {
+  background-color: rgb(39, 77, 20);
+  color: white;
+}
+.AddPizza{
+  margin-left: 5%!important;
+}
+.OutPizza{
+  margin-left: 3%!important;
+}
+.data{
+  color: red;
+}
+/* .fff{
+  float: right;
+} */
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
